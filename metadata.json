@@ -1,0 +1,7 @@
+{
+  "name": "Rīgas Autoskola Premium",
+  "description": "Modern, cinematic, and high-performance landing page for Rīgas Autoskola, featuring multi-language support (LV, EN, RU), scroll-driven animations, and optimized conversion paths.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

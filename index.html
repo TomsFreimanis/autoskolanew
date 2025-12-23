@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rīgas Autoskola | Tavas tiesības, Tava drošība</title>
+    <meta name="description" content="Premium autoskola Rīgā. B kategorija, teorija no 59€. Modernākā apmācību sistēma un pieredzējuši instruktori.">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Rīgas Autoskola | Premium B Kategorija">
+    <meta property="og:description" content="Piesakies teorijas kursam tikai par 59€. Modernas automašīnas un profesionāli instruktori.">
+    <meta property="og:type" content="website">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@19.0.0",
+    "react-dom": "https://esm.sh/react-dom@19.0.0",
+    "react-dom/client": "https://esm.sh/react-dom@19.0.0/client",
+    "framer-motion": "https://esm.sh/framer-motion@11.11.11?external=react,react-dom",
+    "lucide-react": "https://esm.sh/lucide-react@0.454.0?external=react,react-dom",
+    "clsx": "https://esm.sh/clsx@2.1.1",
+    "tailwind-merge": "https://esm.sh/tailwind-merge@2.5.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/"
+  }
+}
+</script>
+    
+    <style>
+        :root {
+            --neon: #CCFF00;
+            --dark: #0A0A0A;
+        }
+        * { font-family: 'Plus Jakarta Sans', sans-serif; scroll-behavior: smooth; }
+        body { background-color: var(--dark); color: white; overflow-x: hidden; }
+        
+        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(16px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .glass-dark { background: rgba(0, 0, 0, 0.4); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.05); }
+        
+        .mesh-gradient {
+            background-image: 
+                radial-gradient(at 0% 0%, rgba(204, 255, 0, 0.1) 0px, transparent 50%),
+                radial-gradient(at 100% 0%, rgba(0, 204, 255, 0.1) 0px, transparent 50%),
+                radial-gradient(at 100% 100%, rgba(204, 255, 0, 0.05) 0px, transparent 50%);
+        }
+
+        .text-neon { color: var(--neon); }
+        .bg-neon { background-color: var(--neon); }
+        .border-neon { border-color: var(--neon); }
+        
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
+        }
+        .animate-float { animation: float 6s ease-in-out infinite; }
+    </style>
+</head>
+<body class="mesh-gradient">
+    <div id="root"></div>
+    <script type="module" src="index.tsx"></script>
+</body>
+
+
+</html>
