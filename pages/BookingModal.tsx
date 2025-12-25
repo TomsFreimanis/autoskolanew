@@ -208,7 +208,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
               Pieteikums saņemts!
             </h3>
             <p className="text-white/50 text-sm md:text-lg">
-              Paldies! Mēs sazināsimies tuvākajā laikā.
+              Paldies! Mēs sazināsimies tuvākajā laikā!.
             </p>
           </motion.div>
         )}
