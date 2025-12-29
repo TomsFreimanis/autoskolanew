@@ -39,7 +39,7 @@ export const Hero: React.FC<HeroProps> = ({ lang, onOpenBooking }) => {
         {/* mobile top */}
         <div className="flex items-center justify-between md:hidden mb-8">
         
-          <div className="w-10 h-10 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-xl" />
+      
         </div>
 
         <div className="max-w-xl">
